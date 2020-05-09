@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Link  -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- #Bootstrap Link  -->
+
+    <!-- Css Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- #Css Link -->
+
+    <!-- Title -->
+    <title> Calculator </title>
+    <!-- #Title -->
+
+</head>
+<body>
+
+    <form class="calculator" name="calc">
+        <input class="value" type="text" name="txt" readonly="">
+        <span class="num clear" onclick="document.calc.txt.value = ' '"> c </span>
+        <span class="num" onclick="document.calc.txt.value += '/'"> / </span>
+        <span class="num" onclick="document.calc.txt.value += '*'"> * </span>
+        <span class="num" onclick="document.calc.txt.value += '7'"> 7 </span>
+        <span class="num" onclick="document.calc.txt.value += '8'"> 8 </span>
+        <span class="num" onclick="document.calc.txt.value += '9'"> 9 </span>
+        <span class="num" onclick="document.calc.txt.value += '-'"> - </span>
+        <span class="num" onclick="document.calc.txt.value += '4'"> 4 </span>
+        <span class="num" onclick="document.calc.txt.value += '5'"> 5 </span>
+        <span class="num" onclick="document.calc.txt.value += '6'"> 6 </span>
+        <span class="num plus" onclick="document.calc.txt.value += '+'"> + </span>
+        <span class="num" onclick="document.calc.txt.value += '3'"> 3 </span>
+        <span class="num" onclick="document.calc.txt.value += '2'"> 2 </span>
+        <span class="num" onclick="document.calc.txt.value += '1'"> 1 </span>
+        <span class="num" onclick="document.calc.txt.value += '0'"> 0 </span>
+        <span class="num" onclick="document.calc.txt.value += '00'"> 00 </span>
+        <span class="num" onclick="document.calc.txt.value += '.'"> . </span>
+        <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)"> = </span>
+    </form>
+
+
+
+
+
+    <!-- Bootstrap  jQuery, Popper.js, Link -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    <!-- #Bootstrap  jQuery, Popper.js, Link -->
+
+    <!-- font-awesome Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- #font-awesome Link -->
+
+    <!-- JavaScript file -->
+    <script src="program.js"></script>
+    <!-- #JavaScript file -->
+
+</body>
+</html>
